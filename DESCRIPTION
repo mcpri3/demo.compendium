@@ -1,0 +1,25 @@
+Package: demo.compendium
+Type: Package
+Title: The Title of the Project
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Marie-Caroline",
+           family  = "Prima",
+           role    = c("aut", "cre", "cph"),
+           email   = "marie-caroline.prima@mnhn.fr",
+           comment = c(ORCID = "")))
+Description: A paragraph providing a full description of the project (on 
+    several lines...)
+URL: https://github.com/mcpri3/demo.compendium
+BugReports: https://github.com/mcpri3/demo.compendium/issues
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    devtools,
+    gh,
+    here,
+    rcompendium,
+    usethis,
+    utils
